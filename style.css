@@ -1,0 +1,227 @@
+.bg-red{
+    opacity:0.70;
+    background-color: rgb(255, 196, 0);
+}
+
+input[type=search]{
+    width: 900px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.search{
+    width: 30px;
+    height: 30px;
+}
+
+.active::after, .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom :3px solid #f10505;
+    width:75%;
+    margin:auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.carousel-caption{
+    color: yellow;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+.flash-sale{
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.flash-sale img{
+    width:200px;
+    height:150px;
+}
+
+.flash-sale h6{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.flash-sale p{
+    font-size: 14px;
+    color: gray;
+    text-align: justify;
+}
+
+.flash-sale span{
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.flash-sale b{
+    color: black;
+}
+
+.jam-digital {
+    overflow: hidden;
+}
+
+.kotak{
+    float: left;
+    width: 50px;
+    height: 35px;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 7px;
+}
+
+.jam-digital p {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.info-panel{
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.info-panel img{
+    width:100px;
+    height:100px;
+}
+
+.info-panel p{
+    font-size: 14px;
+    color: gray;
+}
+
+.info-panel h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.info-panel span{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.lihat-semua{
+    margin-top: 10px;
+    color: rgb(11, 172, 73);
+    font-weight: bold;
+    text-align: right;
+}
+
+.brand{
+    width:100%;
+    height:125px;
+    border-radius: 30px;
+}
+
+.contact-footer{
+    width:50px;
+    height:50px;
+    background-color:white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+.panel-promo h3{
+	margin-left:40px;
+}
+
+.panel-promo img{
+	padding:5px;
+    width:450px;
+    height:150px;
+	margin-left: 20px;
+}
+
+.panel-promo h6{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 25px;
+}
+
+.panel-promo p{
+    font-size: 14px;
+    color: gray;
+    text-align: justify;
+	margin-left: 25px;
+}
+
+.panel-promo b{
+    color: black;
+	margin-left: 350px;
+}
+
+#produk .lihat-semua{
+    margin-right: 20px;
+}
+
+#produk h3{
+    font-family: 'Arial Black';
+    margin-left: 15px;
+}
+
+.kategori{
+    color: black;
+    font-family: 'Tequilla Sunrise';
+    font-weight: bold;
+}
+
+.kategori img{
+    width:100%;
+    height:120px;
+    filter: grayscale(1);
+}
+
+.kategori img:hover{
+    filter: grayscale(0);
+}
+
+.produk{
+    color: black;
+}
+
+.produk img{
+    width:100%;
+    height:200px;
+    padding-top: 20px;
+}
+
+.judul-icon{
+    color: black;
+    margin-top: 15px;
+    font-family: 'Hobo Std';
+}
+
+.teamku{
+    color: black;
+}
+
+.teamku img{
+    width:100%;
+    height:255px;
+}
+
+i{
+    filter: grayscale(1);
+}
+
+i:hover{
+    filter: grayscale(0);
+}
+

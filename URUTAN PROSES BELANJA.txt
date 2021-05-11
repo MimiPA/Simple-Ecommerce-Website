@@ -1,0 +1,52 @@
+Urutan Baca File nya :
+1. Import db ecommerce (Ada 5 tabel)
+2. landingPage.php
+User harus punya akun dlu baru bisa masuk ke home. Login / Buat Akun
+3. buatAkun.php / login.php
+4. navbar.php
+5. cekSession.php
+6. logout.php
+7. footer.php
+8. home.php
+9. promo.php
+10. aboutUs.php
+11. produk.php
+Di produk.php, gambar, nama_produk, harga_produk di ambil dari database di tabel_produk
+
+12. prosesOrder.php
+Di prosesOrder.php untuk memasukkan barang ke dalam database di tabel_order.
+Sebelum masuk, dicek dlu ada mi tdk di db barang itu, kalo ada maka di UPDATE, klo tidak ada di INSERT.
+Klo berhasil masuk ke db, di tampilkan barang nya di keranjangBelanja.php
+
+13. keranjangBelanja.php
+Di keranjangBelanja.php di tampilkan data barang yang dimasukkan ke keranjang dari db tabel_order, tabel_produk.
+Lalu bisa Edit dan Delete barang yang salah masuk keranjang.
+
+14. edit.php
+Di ambil data dari db tabel_order, tabel_produk.
+Klo sudah di edit maka di proses di updateEditOrder.php
+
+15. updateEditOrder.php
+Untuk mengubah tabel_order di db.
+Kalo user pilih total_item = 0 maka di DELETE
+Klo user tambah barang nya maka di UPDATE
+klo berhasil terubah di db tabel_order maka kembali ke keranjangBelanja.php
+
+16. hapus.php
+Untuk menghapus data di db tabel_order, jika ada belanjaan yang tidak di mau dari keranjangBelanja.php.
+
+17. rincianPembayaran.php
+Klo user mau bayar barang yang dalam keranjangBelanja.php, maka di proses ke rincianPembayaran.php.
+Di rincianPembayaran.php, ditampilkan kembali barang yang dipesan user, trus user hrus memilih jasa kirim sebelum klik button bayar.
+Kalo tidak pilih jasa_kirim, maka muncul text merah blg harus pilih.
+Kalo sudah pilih, terjadi perhitungan berapa total yang harus dibayar.
+Lalu klik tombol bayar, maka di proses di rincianPembayaran paling atas yang ada isset.
+Nanti rincian barang ny dimasukkan di db tabel_pembelian.
+Kalo berhsl masuk db tabel_pembelian, maka di db tabel_produk maka akan dikurangi stok barang yang tersedia.
+Lalu akan di hapus data yang ada pada db tabel_order, karena sudah dibayar.
+
+18. riwayatPesanan.php
+Ini dapat di akses di bagian icon profil di navbar, ada Riwayat Pesanan.
+Di riwayatPesanan.php ditampilkan data yang pernah user pesan dari tabel_pembelian, tabel_produk.
+
+The End
